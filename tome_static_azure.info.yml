@@ -1,0 +1,9 @@
+name: Tome Static Azure
+type: module
+description: 'Synchronise a Tome Static site export with an Azure storage account.'
+package: OCHA
+core_version_requirement: ^8 || ^9
+
+dependencies:
+  - tome:tome_static
+  - azure_storage:azure_storage

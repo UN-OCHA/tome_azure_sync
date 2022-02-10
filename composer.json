@@ -1,0 +1,24 @@
+{
+    "name": "unocha/tome_static_azure",
+    "description": "Module that provides a drush command to upload a tome static website to an Azure storage account.",
+    "type": "drupal-drush",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Peter Lieverdink",
+            "role": ""
+        }
+    ],
+    "extra": {
+        "drush": {
+            "services": {
+                "drush.services.yml": "^10"
+            }
+        }
+    },
+    "require": {
+        "php": ">=8",
+        "microsoft/azure-storage-blob": "^1.5",
+        "ralouphie/mimey": "^1.0"
+    }
+}
